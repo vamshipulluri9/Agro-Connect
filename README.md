@@ -59,6 +59,7 @@ mvn spring-boot:run
 
 cd post-service
 mvn spring-boot:run
+
 📌 API Endpoints
 Service Endpoint Base URL
 User Service http://localhost:8080/api/users/
@@ -73,7 +74,7 @@ View Service http://localhost:8080/api/view/
 
 ⏳ Config Server: Centralized configuration for all microservices
 
-⏳ RabbitMQ/Kafka: Event-driven notifications
+⏳ Kafka: Event-driven notifications
 
 🏗 Contributing
 Fork the repo 📌
