@@ -7,8 +7,8 @@ Agro Connect is a microservices-based **social media platform for farmers and la
 - **User Service**: Manages authentication, authorization, and user profiles. ✅ _Done_
 - **Post Service**: Allows farmers to post agricultural work and laborers to comment. ✅ _Done_
 - **View Service**: Fetches and displays posts. 🏗️ _Planned Next_
-- **Gateway Service**: Routes API requests to the appropriate service. ✅ _Implemented_
-- **Discovery Service**: Eureka-based service discovery for microservices. ✅ _Implemented_
+- **Gateway Service**: Routes API requests to the appropriate service. 🏗️ _Planned Next_
+- **Discovery Service**: Eureka-based service discovery for microservices. 🏗️ _Planned Next_
 - **Config Server**: Centralized configuration management. 🏗️ _Planned Next_
 
 ## 🛠 Technologies Used
