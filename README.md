@@ -34,21 +34,35 @@ cd agro-connect
 ```
 
 2️⃣ Start the Eureka Discovery Server
+
+```sh
 sh
 Copy
 Edit
 cd discovery-service
 mvn spring-boot:run
+
+```
+
 3️⃣ Start the API Gateway
+
+```sh
 sh
 Copy
 Edit
 cd gateway-service
 mvn spring-boot:run
+
+```
+
 4️⃣ Run Microservices
+
+```sh
 sh
 Copy
 Edit
+
+```
 
 # User Service
 
@@ -65,7 +79,9 @@ Service Endpoint Base URL
 User Service http://localhost:8080/api/users/
 Post Service http://localhost:8080/api/posts/
 View Service http://localhost:8080/api/view/
-🔜 Next Steps
+
+# 🔜 Next Steps
+
 ✅ User Service Completed (JWT Auth, PostgreSQL, Role-Based Access)
 
 ✅ Post Service Completed (Create, Fetch, Comment on Posts)
@@ -76,7 +92,8 @@ View Service http://localhost:8080/api/view/
 
 ⏳ Kafka: Event-driven notifications
 
-🏗 Contributing
+# 🏗 Contributing
+
 Fork the repo 📌
 
 Create a feature branch (git checkout -b feature-name)
@@ -87,5 +104,5 @@ Push to the branch (git push origin feature-name)
 
 Open a Pull Request 🚀
 
-📝 License
+#📝 License
 This project is licensed under the MIT License.
